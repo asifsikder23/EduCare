@@ -1,0 +1,11 @@
+@media only screen and (max-width:576px){
+    .course-thumbnail img{
+        width: 335px;
+        height: 224px;
+        margin-top:10px ;
+    }
+    .course-details{
+        text-align: left;
+        padding: 10px;
+    }
+}
