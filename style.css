@@ -9,6 +9,7 @@
     
     .course-thumbnail img{
         width: 100%;
+        padding-top: 5%;
     }
     #course-thumbnail{
         display: none;
