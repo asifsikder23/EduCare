@@ -252,19 +252,60 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel"><img class="img-fluid w-50" src="images/logo/edu logo full.png" alt=""></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    It is a long established fact that a reader will be distracted by the
-                                    readable content of a page when looking at its layout.
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
+                                <form class="container row g-3 p-3">
+                                  <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                  </div>
+                                  <div class="col-12">
+                                    <label for="inputName" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Name">
+                                  </div>
+                                  <div class="col-12">
+                                    <label for="inputAddress" class="form-label">Address</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Enter Your Address">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputCity" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                  </div>
+                                  <div class="col-md-4">
+                                    <label for="inputState" class="form-label">State</label>
+                                    <select id="inputState" class="form-select">
+                                      <option selected>Choose...</option>
+                                      <option>Dhaka</option>
+                                      <option>Khulna</option>
+                                      <option>Chittagong</option>
+                                      <option>Rajshahi</option>
+                                      <option>Rangpur</option>
+                                      <option>Sylhet</option>
+                                      <option>Barisal</option>
+                                    </select>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <label for="inputZip" class="form-label">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                  </div>
+                                  <div class="col-12">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                                      <label class="form-check-label" for="gridCheck">
+                                        I have read and agreed to the<a class="text-decoration-none" href=""> terms and conditions</a>
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                                  </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -317,15 +358,13 @@
               </div>
             </div>
           </div>
-
-
-        <div class="d-flex justify-content-center pt-5">
+        <div class="d-flex justify-content-center py-5">
           <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">View all</button>
         </div>
       </section>
       <!-- Meet Section end here -->
       <!-- feedback Section Start here -->
-      <section class="pt-5" id="success">
+      <section class="gradient pt-5" id="success">
         <div class="container">
           <div class="text-center">
             <h1>Some Students Feedback</h1>
@@ -481,8 +520,8 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <div class="text-center">
-            <button class="btn btn-primary py-3 px-5 fw-bold mt-2">View All</button>
+          <div class="text-center pb-5">
+            <button class="btn btn-primary py-2 px-4 fw-bold mt-2">View All</button>
           </div>
         </div>
         </div>
