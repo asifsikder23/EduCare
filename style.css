@@ -1,21 +1,17 @@
-.course-thumbnail img{
-    width: 200px;
-    height: 200px;
-}
 .price{
     color: #289BDE;
 }
 @media only screen and (max-width:767px){
-    
-    .course-thumbnail img{
-        width: 100%;
-        padding-top: 5%;
+    .carousel-item img{
+        height: 300px;
+    }
+    .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .carousel-caption p{
+        font-size: 0.5rem;
     }
     #course-thumbnail{
         display: none;
-    }
-    .course-details{
-        text-align: left;
-        padding: 10px;
     }
 }
